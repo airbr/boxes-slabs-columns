@@ -1,5 +1,48 @@
 #carouselExampleCaptions {
     padding: 25px;
-    margin: 25px;
     background: grey;
+    min-height: 600px;
+}
+
+main > section {
+    max-width: 80%;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+summary {
+    text-align: center;
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details[open] {
+    padding: 0.5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 50%;
+    margin: auto;
+  }
+  
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic large sans-serif;
+    padding: 3px;
+    text-align: center;
 }
